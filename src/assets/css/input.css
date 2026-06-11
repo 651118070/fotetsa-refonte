@@ -76,6 +76,9 @@ body::-webkit-scrollbar{
     .btn-table{
     @apply text-white bg-black1 border outline-none border-transparent p-2 rounded-xl hover:text-pink hover:bg-white transition-colors duration-300 hover:border hover:border-pink
 }
+  .btn-table1{
+    @apply text-white bg-pink border outline-none border-transparent p-2 rounded-xl hover:text-black1 hover:bg-white transition-colors duration-300 hover:border hover:border-pink
+}
       .btn-cta{
         @apply text-blue bg-white border outline-none border-blue p-3 rounded-xl hover:text-white hover:bg-blue transition-colors duration-300 
     }
