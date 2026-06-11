@@ -18,9 +18,10 @@
     <header class="fixed top-0 z-20 w-full bg-white">
         <section class="max-w-7xl max-lg:max-w-6xl flex items-center justify-between mx-auto py-5 max-lg:px-5">
             <div>
-                <img src="./assets/images/logo-fotetsa-noir.png" alt="logo-fotetsa-noir" class="w-32">
+                <a href="./index.html"> <img src="./assets/images/logo-fotetsa-noir.png" alt="logo-fotetsa-noir"
+                        class="w-32"></a>
             </div>
-            <nav class="hidden lg:block">
+            <nav class="hidden md:block">
                 <ul class="flex justify-between gap-6 items-center">
 
                     <li class="relative group list-none">
@@ -174,7 +175,7 @@
                 </ul>
 
             </nav>
-            <nav class="lg:hidden block ">
+            <nav class="md:hidden block ">
                 <section
                     class="scroll fixed z-40  h-screen  flex flex-col gap-5 navbar lg:hidden top-14 p-5 left-0  transform origin-top w-full  transition-transform scale-y-0 duration-700  border border-transparent bg-white shadow-xl shadow-gray   ">
                     <div class="h-1 w-full bg-pink"></div>
@@ -421,58 +422,66 @@
                 </div>
             </div>
         </section>
-        <section class="bg-gray1 py-15 mt-20 max-lg:mt-10 grid gap-10 px-9">
-            <div class="max-w-7xl mx-auto">
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <h2 class="text-3xl lg:text-6xl font-bold">
-                        Nous sommes une agence web & mobile pas comme les autres
-                    </h2>
+        <section class="bg-gray1  py-15 mt-20 max-lg:mt-10 grid gap-10 px-9">
+            <div class="max-w-7xl mx-auto flex flex-col space-y-20">
+    
+                    <div class="flex flex-col lg:flex-row gap-8">
+                        <h2 class="text-3xl lg:text-5xl font-bold">
+                            Nous sommes une agence web & mobile pas comme les autres
+                        </h2>
 
-                    <p class="text-2xl lg:text-3xl text-gray lg:max-w-md">
-                        Vous êtes déçu des agences et des ESN ? Alors vous allez aimer Fotetsa...
-                    </p>
+                        <p class="text-2xl lg:text-3xl text-gray lg:max-w-md">
+                            Vous êtes déçu des agences et des ESN ? Alors vous allez aimer Fotetsa...
+                        </p>
+                    </div>
+                
+                <div class="grid lg:grid-cols-3 gap-10  max-lg:place-items-center ">
+                    <div
+                        class="flex flex-col gap-6  bg-white   p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
+                        <img src="../src/assets/images/create.png" class="w-20" alt="create">
+                        <h2 class="text-2xl font-bold">Création de produit sur mesure</h2>
+                        <p class="tex-xl text-justify text-gray">Vous avez une idée de produit ? En moins de 3 mois,
+                            nous
+                            créons une première version de votre produit (POC, MVP) pour dérisquer votre idée et
+                            diminuer
+                            votre time to market. Nos équipes vous accompagnent ensuite sur le long terme pour que votre
+                            produit soit un succès.</p>
+                        <a class="text-blue text-xl group-hover:text-pink duration-300"
+                            href="./offre-produit-innovation.html">Notre Offre Produit</a>
+                    </div>
+                    <div
+                        class="flex flex-col gap-6 bg-white  p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
+                        <img src="../src/assets/images/pc.png" class="w-20" alt="pc">
+                        <h2 class="text-2xl font-bold">Refonte site web et application</h2>
+                        <p class="tex-xl text-justify text-gray">Vos outils sont vieillissants et n’évoluent plus ? Nous
+                            avons développé une méthodologie spécifique pour accompagner nos clients dans leur projet de
+                            refonte technique, permettant une migration fluide tout en réduisant l’impact opérationnel.
+                        </p>
+                        <a class="text-blue text-xl group-hover:text-pink duration-300"
+                            href="./offre-produit-innovation.html">Notre Offre refonte</a>
+                    </div>
+                    <div
+                        class="flex flex-col gap-6 bg-white   p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
+                        <img src="../src/assets/images/circle.png" class="w-20" alt="circle">
+                        <h2 class="text-2xl font-bold">Reprise de projet &TMA</h2>
+                        <p class="tex-xl text-justify text-gray">Nouveaux besoins utilisateurs, évolutions de votre
+                            marché,
+                            sécurité, bugs : votre application web vit et ne peut pas rester figée. Notre équipe reprend
+                            votre projet, le maintient en conditions opérationnelles et le fait évoluer avec notre offre
+                            de
+                            tierce maintenance applicative.</p>
+                        <a class="text-blue text-xl group-hover:text-pink duration-300"
+                            href="./offre-produit-innovation.html">Notre Offre TMA</a>
+                    </div>
                 </div>
             </div>
-            <div class="grid lg:grid-cols-3 gap-10  max-lg:place-items-center ">
-                <div
-                    class="flex flex-col gap-6  bg-white   p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
-                    <img src="../src/assets/images/create.png" class="w-20" alt="create">
-                    <h2 class="text-2xl font-bold">Création de produit sur mesure</h2>
-                    <p class="tex-xl text-justify text-gray">Vous avez une idée de produit ? En moins de 3 mois, nous
-                        créons une première version de votre produit (POC, MVP) pour dérisquer votre idée et diminuer
-                        votre time to market. Nos équipes vous accompagnent ensuite sur le long terme pour que votre
-                        produit soit un succès.</p>
-                    <a class="text-blue text-xl group-hover:text-pink duration-300"
-                        href="./offre-produit-innovation.html">Notre Offre Produit</a>
-                </div>
-                <div
-                    class="flex flex-col gap-6 bg-white  p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
-                    <img src="../src/assets/images/pc.png" class="w-20" alt="pc">
-                    <h2 class="text-2xl font-bold">Refonte site web et application</h2>
-                    <p class="tex-xl text-justify text-gray">Vos outils sont vieillissants et n’évoluent plus ? Nous
-                        avons développé une méthodologie spécifique pour accompagner nos clients dans leur projet de
-                        refonte technique, permettant une migration fluide tout en réduisant l’impact opérationnel.</p>
-                    <a class="text-blue text-xl group-hover:text-pink duration-300"
-                        href="./offre-produit-innovation.html">Notre Offre refonte</a>
-                </div>
-                <div
-                    class="flex flex-col gap-6 bg-white   p-4 shadow shadow-gray group hover:scale-105 duration-300 ease-linear">
-                    <img src="../src/assets/images/circle.png" class="w-20" alt="circle">
-                    <h2 class="text-2xl font-bold">Reprise de projet &TMA</h2>
-                    <p class="tex-xl text-justify text-gray">Nouveaux besoins utilisateurs, évolutions de votre marché,
-                        sécurité, bugs : votre application web vit et ne peut pas rester figée. Notre équipe reprend
-                        votre projet, le maintient en conditions opérationnelles et le fait évoluer avec notre offre de
-                        tierce maintenance applicative.</p>
-                    <a class="text-blue text-xl group-hover:text-pink duration-300"
-                        href="./offre-produit-innovation.html">Notre Offre TMA</a>
-                </div>
-            </div>
+
         </section>
         <!-- <section class="grid lg:grid-cols-2 gap-4 max-w-7xl mx-auto px-9 h-40">
             <img src="../src//assets/images/white.png" class="h-full" alt="workspace">
             <img src="../src//assets/images/white1.png" class="w-full" alt="workspace">
         </section> -->
-        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 max-lg: px-9">
+        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 px-9">
             <div class="grid lg:grid-cols-2 gap-x-40 max-lg:gap-10 ">
                 <div class="flex flex-col gap-8">
                     <h2 class="text-3xl lg:text-6xl text-black1 font-bold max-lg:text-center ">Ce que l’on fait</h2>
@@ -577,7 +586,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 p-9 bg-gray1">
+        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 px-9 bg-gray1">
             <div class="grid gap-5">
                 <div class="flex flex-col text-center gap-5">
                     <h2 class="text-3xl lg:text-6xl text-black1 font-bold  max-lg:text-center">Ce qu’ils disent de nous
@@ -671,7 +680,7 @@
             </div>
 
         </section>
-        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 p-9  ">
+        <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 px-9  ">
             <div class="grid gap-5">
                 <div class="flex max-lg:flex-col justify-between">
                     <h2 class="text-3xl font-bold text-black1 max-lg:text-xl text-nowrap">Nos Clients</h2>
@@ -679,7 +688,7 @@
                         projets sur lesquels nous avons travaillé. Découvrez nos études de cas, qui racontent la façon
                         dont avons aidé nos clients à atteindre leurs objectifs.</p>
                 </div>
-                <div class="grid  lg:grid-cols-2 max-lg:gap-5 ">
+                <div class="grid grid-cols-1  md:grid-cols-2 max-lg:gap-5 ">
                     <div class="group w-110 h-160">
                         <div class="w-full h-full perspective-[1000px] relative transform-3d">
                             <div
@@ -784,7 +793,7 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 p-9  bg-gray1">
-            <div class="grid place-items-center gap-4">
+            <div class="grid place-items-center gap-4 ">
                 <h2 class="lg:text-6xl text-black1 text-3xl">Vous aimez ce que vous voyez ?</h2>
                 <p class="text-gray text-xl">Si vous êtes arrivé jusqu’ici, pourquoi ne pas faire connaissance ?
                     Nous ferons tout pour vous répondre au plus vite.</p>
@@ -796,7 +805,7 @@
                     </div>
                     <div class="flex gap-2 items-center">
                         <i class="fa-solid fa-square-phone text-4xl text-blue"></i>
-                        <span class="font-bold text-lg">
+                        <span class="font-bold text-lg text-nowrap">
                             +237 655 447 137</span>
                     </div>
 
@@ -812,7 +821,7 @@
     </main>
     <footer class="bg-black w-full text-white">
         <section class="max-w-7xl mx-auto mt-20 max-lg:mt-10 max-lg: p-9">
-            <div class="grid gap-10">
+            <div class="grid gap-y-20">
                 <div class="grid lg:grid-cols-2 gap-4 ">
                     <div class="flex flex-col gap-3">
                         <img src="../src/assets/images/logo-fotetsa-blanc.png" class="w-32" alt="logo-fotetsa-blanc">
@@ -851,9 +860,10 @@
                     </div>
                 </div>
                 <div class="grid lg:grid-cols-3 gap-4 ">
-                    <div class="flex flex-col gap-3">
+                    <div class="flex flex-col gap-3 lg:justify-self-center">
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Agence Fotetsa Douala
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Agence Fotetsa
+                                Douala
                             </h3>
                             <span hover:text-pink duration-300 transition-colors>Av. Charles de Gaulle,
                                 Douala, Cameroun
@@ -863,34 +873,165 @@
                         <div class="flex flex-col gap-2">
                             <h3 class="text-lg hover:text-pink duration-300 transition-colors">Agence Fotetsa Yaoundé
                             </h3>
-                            
+
                             <span class="hover:text-pink duration-300 transition-colors"">+237 658 267 975</span>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-3  justify-self-center">
-                        <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Nos expertises</h3>
-                        <div class="flex flex-col gap-2  ">
-                            <a class="hover:text-pink duration-300 transition-colors" href="./developpement-web.html">Développement Web</a>
-                            <a class="hover:text-pink duration-300 transition-colors" href="./developpement-mobile.html">Développement Mobile</a>
-                            <a class="hover:text-pink duration-300 transition-colors" href="./ux-ui.html">Design UX UI</a>
-                            <a class="hover:text-pink duration-300 transition-colors" href="./metier-nocode.html">Développement NoCode &LowCode</a>
+                    <div class=" flex flex-col gap-3 lg:justify-self-center">
+                                <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Nos
+                                    expertises</h3>
+                                <div class="flex flex-col gap-2  ">
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-web.html">Développement Web</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-mobile.html">Développement Mobile</a>
+                                    <a class="hover:text-pink duration-300 transition-colors" href="./ux-ui.html">Design
+                                        UX UI</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement NoCode &LowCode</a>
+                                </div>
+                        </div>
+                        <div class="flex flex-col gap-3 lg::items-center">
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Agence</h3>
+                            <div class="flex flex-col gap-2">
+                                <a class="hover:text-pink duration-300 transition-colors" href="./vision.html">A
+                                    propos</a>
+                                <a class="hover:text-pink duration-300 transition-colors" href="./client.html">Cas
+                                    clients</a>
+
+                            </div>
                         </div>
                     </div>
-                       <div class="flex flex-col gap-3 items-center">
-                        <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Agence</h3>
-                        <div class="flex flex-col gap-2">
-                            <a class="hover:text-pink duration-300 transition-colors" href="./vision.html">A propos</a>
-                            <a class="hover:text-pink duration-300 transition-colors" href="./client.html">Cas clients</a>
-                           
+                    <div class="grid lg:grid-cols-3 gap-4 lg:justify-center ">
+
+
+                        <div class="flex flex-col gap-3 ">
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Nos expertises
+                                DÉVELOPPEMENT MOBILE
+                            </h3>
+                            <div class="flex flex-col gap-2">
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./vision.html">Développement d ’applications mobiles</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement mobile avec React Native</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement mobile avec Flutter</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement d ’une PWA</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement mobile en no-code</a>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-3  >
+                        <h3 class=" text-lg font-bold hover:text-pink duration-300 transition-colors">Nos expertises
+                            produit
+                            </h3>
+                            <div class="flex flex-col gap-2">
+                                <a class="hover:text-pink duration-300 transition-colors" href="./vision.html">UX / UI
+                                    Design</a>
+                                <a class="hover:text-pink duration-300 transition-colors" href="./client.html">Product
+                                    Management</a>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-3 ">
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Nos expertises
+                                Nocode
+                            </h3>
+                            <div class="flex flex-col gap-2">
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./vision.html">Développement No-code</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement No-code avec Flutterflow</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement No-code avec Airtable</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement No-code avec Bubble</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Développement No-code avec Make</a>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-3  ">
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">nos secteurs de
+                                predilections
+                            </h3>
+                            <div class="flex flex-col gap-2">
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./vision.html">Industrie</a>
+                                <a class="hover:text-pink duration-300 transition-colors" href="./client.html">Loisirs /
+                                    Tourisme</a>
+                                <a class="hover:text-pink duration-300 transition-colors" href="./client.html">RH /
+                                    Formation</a>
+                                <a class="hover:text-pink duration-300 transition-colors"
+                                    href="./client.html">Transition énergétique</a>
+                                <a class="hover:text-pink duration-300 transition-colors" href="./client.html">Finance /
+                                    Assurance</a>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-3  ">
+                            <h3 class="text-lg font-bold hover:text-pink duration-300 transition-colors">Nos expertises
+                                développement WEB</h3>
+                            <div class="grid lg:grid-cols-2  text-nowrap gap-x-20 gap-y-3">
+                                <div class="flex flex-col gap-2  ">
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-web.html">Développement avec React</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-mobile.html">Développement avec NextJS</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./ux-ui.html">Développement avec Angular</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec VueJS</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec NodeJS</a>
+                                </div>
+                                <div class="flex flex-col gap-2  ">
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-web.html">Développement avec Symfony</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-mobile.html">Développement avec TypeScript</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./ux-ui.html">Développement avec PHP</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec Python</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec Django</a>
+                                </div>
+                                <div class="flex flex-col gap-2  ">
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-web.html">Développement avec Flask </a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-mobile.html">Développement avec Haskell</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./ux-ui.html">Développement avec NuxtJS</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec Rust</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec Laravel</a>
+                                </div>
+                                <div class="flex flex-col gap-2  ">
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-web.html">Développement avec Strapi </a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./developpement-mobile.html">Développement avec Sylius</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./ux-ui.html">Développement avec GraphQL</a>
+                                    <a class="hover:text-pink duration-300 transition-colors"
+                                        href="./metier-nocode.html">Développement avec Electront</a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <hr class="text-gray">
+                    <div class="flex justify-between">
+                        <span>Refonte fait par pola © 2026</span>
+                        <span>Mentions légales – Confidentialité – Glossaire</span>
+                    </div>
+
                 </div>
-                <hr class="text-gray">
-                <div class="flex justify-between">
-                    <span>Refonte fait par pola © 2026</span>
-                    <span>Mentions légales – Confidentialité –  Glossaire</span>
-                </div>
-            </div>
         </section>
     </footer>
     <script src="./assets/css/icons/all.min.js"></script>

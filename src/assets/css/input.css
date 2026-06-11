@@ -44,10 +44,19 @@ body::-webkit-scrollbar{
 .swiper-button-prev {
   font-size: 10px;
 }
+.glossaire h3{
+  color:rgb(255, 58, 141);
+  font-size: 15px;
+  font-weight:bold
+}
 
 .swiper-button-next,
 .swiper-button-prev {
   transform: scale(0.8);
+}
+
+.active {
+    color: #ec4899; /* rose */
 }
 @theme{
     --color-pink:rgb(255, 58, 141);
@@ -64,6 +73,9 @@ body::-webkit-scrollbar{
     .btn{
         @apply text-white bg-pink border outline-none border-transparent p-3 rounded-xl hover:text-pink hover:bg-white transition-colors duration-300 hover:border hover:border-pink
     }
+    .btn-table{
+    @apply text-white bg-black1 border outline-none border-transparent p-2 rounded-xl hover:text-pink hover:bg-white transition-colors duration-300 hover:border hover:border-pink
+}
       .btn-cta{
         @apply text-blue bg-white border outline-none border-blue p-3 rounded-xl hover:text-white hover:bg-blue transition-colors duration-300 
     }
